@@ -186,7 +186,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", default=1, type=int)
     parser.add_argument("--data_path", default='./dataset/GOPRO_Large', type=str)
     parser.add_argument("--dir_path", default=None, type=str)
-    parser.add_argument("--model_path", default=None, type=str)
+    parser.add_argument("--model_path", default='./weights/ID_Blau.pth', type=str)
     parser.add_argument("--flow_data_path",default="./dataset/GOPRO_flow",type=str)
     parser.add_argument("--flow_norm",default=True,type=bool)
     parser.add_argument("--model", default='DDIM', type=str)
